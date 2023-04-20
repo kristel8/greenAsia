@@ -1,0 +1,13 @@
+footer {
+  background-color: #ffffff;
+  width: 100%;
+  color: #000000;
+  font-size: 3rem;
+}
+
+.redes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: auto 25%;
+}

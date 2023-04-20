@@ -1,0 +1,29 @@
+.presentacion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.presentacion img {
+  width: 40%;
+  min-width: 15em;
+}
+
+.presentacion > .nota {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10%;
+  font-size: 3rem;
+}
+
+@media (max-width: 999px) {
+  .presentacion {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    font-size: 1rem;
+    justify-items: center;
+  }
+}
